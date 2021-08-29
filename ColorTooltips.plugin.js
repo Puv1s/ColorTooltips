@@ -1,6 +1,6 @@
 /**
  * @name ColorTooltips
- * @version 0.1.0
+ * @version 0.0.1
  * @source https://github.com/Puv1s/ColorTooltips/blob/main/ColorTooltips.plugin.js
  * @updateUrl https://raw.githubusercontent.com/Puv1s/ColorTooltips/master/ColorTooltips.plugin.js
  */
