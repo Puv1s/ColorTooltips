@@ -1,8 +1,8 @@
 /**
- * @name ColorToolTips
+ * @name ColorTooltips
  * @version 0.1.0
- * @source https://github.com/Puv1s/ColorToolTips/blob/main/ColorToolTips.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Puv1s/ColorToolTips/master/ColorToolTips.plugin.js
+ * @source https://github.com/Puv1s/ColorTooltips/blob/main/ColorTooltips.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Puv1s/ColorTooltips/master/ColorTooltips.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -31,26 +31,25 @@
 module.exports = (() => {
     const config = {
         info:{
-            name:"ColorToolTips",
+            name:"ColorTooltips",
             authors:[
                 {
-                    name:"Puwu",
+                    name:"Pu",
                     discord_id:"116242787980017679",
                     github_username:"Puv1s"
                 }
             ],
             version:"0.0.1",
-            description:"Color ToolTips",
-            github:"https://github.com/Puv1s/ColorToolTips",
-            github_raw:"https://raw.githubusercontent.com/Puv1s/ColorToolTips/master/ColorToolTips.plugin.js"
+            description:"Color Tooltips",
+            github:"https://github.com/Puv1s/ColorTooltips",
+            github_raw:"https://raw.githubusercontent.com/Puv1s/ColorTooltips/master/ColorTooltips.plugin.js"
 	},
             changelog:[
                 {
-                    title:"Fixed",
+                    title:"Release",
                     type:"fixed",
                     items:[
-                        "Zere zoom",
-                        "More performance drain"
+                        "I finished something."
                     ]
                 }
             ],
@@ -425,7 +424,7 @@ module.exports = (() => {
         }
     }
 
-    return class ColorToolTips extends Plugin {
+    return class ColorTooltips extends Plugin {
 
         async patchMessageContent(){
             Patcher.before(MessageComponent, "type", (e, t, n, r) => {
