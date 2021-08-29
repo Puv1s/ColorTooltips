@@ -1,6 +1,6 @@
 /**
  * @name ColorTooltips
- * @version 0.0.1
+ * @version 0.0.ľ
  * @source https://github.com/Puv1s/ColorTooltips/blob/main/ColorTooltips.plugin.js
  * @updateUrl https://raw.githubusercontent.com/Puv1s/ColorTooltips/master/ColorTooltips.plugin.js
  */
@@ -39,20 +39,11 @@ module.exports = (() => {
                     github_username:"Puv1s"
                 }
             ],
-            version:"0.0.1",
-            description:"Color Tooltips",
+            version:"0.0.ľ",
+            description:"Highlights colors in chat with special popout",
             github:"https://github.com/Puv1s/ColorTooltips",
             github_raw:"https://raw.githubusercontent.com/Puv1s/ColorTooltips/master/ColorTooltips.plugin.js"
-	},
-            changelog:[
-                {
-                    title:"Release",
-                    type:"fixed",
-                    items:[
-                        "I finished something."
-                    ]
-                }
-            ],
+	    },
 
             main:"index.js"
         };
