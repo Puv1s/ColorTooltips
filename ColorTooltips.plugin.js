@@ -65,6 +65,7 @@ module.exports = (() => {
             background-color: var(--background-secondary);
             border-radius: 6px;
             overflow: hidden;
+	    box-shadow: var(--elevation-high);
          }
         
         .ColorTooltips-header{
