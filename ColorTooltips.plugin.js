@@ -436,7 +436,7 @@ module.exports = (() => {
                         }
                     }
                 }
-                t[0].content = newContent;
+                if(newContent.length > 0) t[0].content = newContent;
             });
         }
 
